@@ -1,0 +1,107 @@
+body {
+  font-family: "Raleway", sans-serif;
+}
+
+/*! -------- header -------*/
+
+.header__title-container {
+  background-color: red;
+  color: white;
+  display: flex;
+  gap: 2rem;
+  height: 3rem;
+  width: auto;
+}
+
+h1.header__title {
+  font-weight: 800;
+  padding: 0.8rem 0 0 1rem;
+  font-size: 1.5rem;
+}
+
+.header__theme-container {
+  background-color: grey;
+  height: 1.5rem;
+  text-align: center;
+  padding: 0.3rem;
+  color: white;
+}
+
+.header__promotion-container {
+  display: flex;
+  height: 1.5rem;
+  background: lightgray;
+  position: sticky;
+  text-align: center;
+  font-size: 0.9rem;
+  align-items: center;
+  justify-content: center;
+  top: 0;
+}
+
+/*! --------- Main ------------- */
+
+
+
+main.articles-liste {
+  display: flex;
+  position: relative;
+  flex-wrap: wrap;
+  align-content: center;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+
+article.articles-liste__items {
+    border: 2px solid black;
+    width: 30%;
+    margin: 2rem 0 2rem 0;
+}
+
+
+img.articles-liste__items-img {
+  width: 100%;
+}
+
+
+p.articles-liste__items-name {
+  color: #9c9797;
+  border-bottom: 2px solid lightgrey;
+  margin: 1rem 1rem 1rem .5rem;
+  padding: 0 0 .3rem 0;
+}
+
+h1.articles-liste__items-character {
+  font-size: 1.4rem;
+  margin: 0 0 .5rem 0.4rem;
+  font-weight: 800;
+}
+
+p.articles-liste__items-details {
+  margin: 0 0 0 .4rem;
+}
+
+/* -------- buton -------- */
+
+
+a.articles-liste__items-button {
+  position: relative;
+  background-color: red;
+  color: wheat;
+  display: flex;
+  padding: 1rem;
+  margin: .3rem;
+  border: 1px solid black;
+  justify-content: space-between;
+}}
+
+span.articles-liste__items-button-add {
+  font-weight: 700;
+  margin-left: -.3rem;
+}
+
+span.articles-liste__items-button-price {
+  display: ;
+  font-weight: 900;
+}
